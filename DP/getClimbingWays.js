@@ -35,6 +35,7 @@ function getClimbingWays1 (n) {
 // 因此我们可以使用一个数组，将已经计算出的值给保存下来，
 // 每次计算时，先判断计算结果是否已经存在，如果已经存在就直接使用。
 
+// eslint-disable-next-line prefer-const
 let map = new Map(); // 这行要放在函数外
 
 function getClimbingWays2 (n) {
